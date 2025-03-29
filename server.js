@@ -13,8 +13,8 @@ const port = process.env.PORT || 3000;
 const client = new BitcoinCore({
     host: process.env.DOGECOIN_NODE_HOST || '127.0.0.1',
     port: process.env.DOGECOIN_NODE_PORT || 18332, // Default testnet RPC port for Dogecoin
-    username: process.env.DOGECOIN_RPC_USER || 'thedogebird',
-    password: process.env.DOGECOIN_RPC_PASSWORD || 'thedogecrownbro',
+    username: process.env.DOGECOIN_RPC_USER || 'youruserhere',
+    password: process.env.DOGECOIN_RPC_PASSWORD || 'yourpasswordhere',
     wallet: process.env.DOGECOIN_WALLET || '' // Optional: specify wallet name if using multi-wallet
 });
 
